@@ -1,0 +1,57 @@
+facebook:
+  client:
+    clientId: 2301735650078202
+    clientSecret: 58ae66c6e160a9323a054d220ff5d1c3
+    accessTokenUri: https://graph.facebook.com/oauth/access_token
+    userAuthorizationUri: https://www.facebook.com/dialog/oauth
+    tokenName: oauth_token
+    authenticationScheme: query
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://graph.facebook.com/me
+
+github:
+  client:
+    clientId: 8cbbd9ad8d786ec5baa8
+    clientSecret: 86dff56423118c1346c67ded50f1aaeebd4b413c
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: https://api.github.com/user
+
+google:
+  client:
+    clientId: 725828534791-fi94m3gj3a26u2ki96aq64vu76h3v9ea.apps.googleusercontent.com
+    clientSecret: zqUHzrqGH_gtnXjUQ-13bP64
+    scope: https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/userinfo.profile
+    userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+    accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+    tokenName: authorization_code
+  resource:
+    userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+
+#mail:
+#  client:
+#    clientId: 725828534791-fi94m3gj3a26u2ki96aq64vu76h3v9ea.apps.googleusercontent.com
+#    clientSecret: zqUHzrqGH_gtnXjUQ-13bP64
+#    scope: https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/userinfo.profile
+#    userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+#    accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+#    tokenName: authorization_code
+#  resource:
+#    userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+
+#vk:
+#  client:
+#    clientId: 7019643
+#    clientSecret: DiTaWl2voYAhau83yjET
+#    userAuthorizationUri: https://oauth.mail.com/authorize
+#    accessTokenUri: https://oauth.mail.com/access_token
+#    tokenName: code
+#    authenticationScheme: query
+#    clientAuthenticationScheme: form
+#    grant-type: authorization_code
+#  resource:
+#    userInfoUri: https://api.mail.com/method/users.get
+
